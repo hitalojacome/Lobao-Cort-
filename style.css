@@ -20,6 +20,9 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* cabeçalho */
+
 .cabecalho {
     display: flex;
     background-color: var(--cor-primaria);
@@ -30,7 +33,10 @@ html {
 .cabecalho__logo {
     display: flex;
     align-items: center;
+}
 
+.cabecalho__logo img {
+    height: 85px;
 }
 
 .cabecalho__logo h2 {
@@ -86,4 +92,49 @@ html {
 .cabecalho__info li:hover{
     border-bottom: 1px solid #fff;
     transition: .2s;
+}
+
+/* cabeçalho fim */
+
+/* sobre  */
+
+#sobre {
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-secundaria);
+    gap: 80px;
+    height: 625px;
+}
+
+.sobre__titulo {
+    height: 3%;
+    padding: 2%;
+    text-align: center;
+    color: var(--cor-fonte);
+    font-weight: 200;
+    align-self: flex-start;
+}
+
+.sobre__conteudo {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre article {
+    width: 35%;
+    height: 35%;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-fonte);
+}
+
+.sobre__conteudo__artigo img {
+    width: 3%;
+    height: 40%;
+}
+
+
+
+
+#localizacao {
+    background-color: #454545;
 }

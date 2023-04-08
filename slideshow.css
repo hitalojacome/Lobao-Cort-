@@ -4,8 +4,8 @@
 }
 
 .content {
-    position: absolute;
-    height: 487px;
+    position: relative;
+    height: 524px;
     width: 100%;
     overflow: hidden;
 }
