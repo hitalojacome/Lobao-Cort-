@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Graduate&display=swap');
+
+:root {
+    --fonte-primaria: 'Graduate';
+    --fonte-secundaria: 'Arvo';
+
+    --cor-primaria: #0C0B0B;
+    --cor-secundaria: #454545;
+    --cor-botao: #A80000;
+    --cor-fonte: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+html {
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: var(--cor-primaria);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.cabecalho__logo h2 {
+    color: var(--cor-fonte);
+    font-family: var(--fonte-primaria);
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+
+.cabecalho__info a {
+    text-decoration: none;
+    color: var(--cor-fonte);
+    display: flex;
+    font-size: 1.1rem;
+}
+
+.cabecalho ul {
+    width: 110%;
+    display: flex;
+    list-style: none;
+    font-family: var(--fonte-primaria);
+    gap: 50px;
+}
+
+.cabecalho li {
+    margin-left: 2%;
+}
+
+.cabecalho__info__botao {
+    width: 300px;
+    height: 65px;
+    border-radius: 29.5px;
+    background-color: var(--cor-botao);
+    cursor: pointer;
+    align-items: center;
+    border: var(--cor-botao);
+    margin: 1%;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-fonte);
+    font-size: 1.4rem;
+}
+
+.cabecalho__info__botao:hover {
+    background-color: var(--cor-fonte);
+    color: #000;
+    width: 320px;
+    height: 70px;
+    font-size: 1.6rem;
+    transition: .5s;
+}
+
+.cabecalho__info li:hover{
+    border-bottom: 1px solid #fff;
+    transition: .2s;
+}
