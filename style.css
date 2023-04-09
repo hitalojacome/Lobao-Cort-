@@ -20,8 +20,17 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    width: 100%;
+}
+
 
 /* cabeçalho */
+
+#home {
+    width: 100%;
+    height: 100vh;
+}
 
 .cabecalho {
     display: flex;
@@ -96,13 +105,13 @@ html {
 
 /* cabeçalho fim */
 
-/* sobre  */
+/* sobre */
 
 #sobre {
     background-color: var(--cor-primaria);
     font-family: var(--fonte-secundaria);
     gap: 80px;
-    height: 625px;
+    height: 100vh;
 }
 
 .sobre__titulo {
@@ -127,14 +136,45 @@ html {
     color: var(--cor-fonte);
 }
 
-.sobre__conteudo__artigo img {
-    width: 3%;
-    height: 40%;
+.sobre__conteudo img {
+    width: 23%;
 }
 
+/* sobre fim */
 
-
+/* localização */
 
 #localizacao {
-    background-color: #454545;
+    background-image: url("assets/fundo-loc.png");
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 2%;
 }
+
+.localizacao__titulo {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-fonte);
+    font-weight: 200;
+    margin: 2% 0 0 0;
+}
+
+.localizacao__endereco {
+    background-color: rgba(0, 0, 0, .8);
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-fonte);
+    text-align: center;
+    width: 1000px;
+    height: 340px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.localizacao__endereco p {
+    top: 30%;
+}
+
+/* localização fim */

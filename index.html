@@ -1,33 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slideshow.css">
+
     <title>Lobão</title>
+
 </head>
+
 <body>
-    <header class="cabecalho">
-        <div class="cabecalho__logo">
-            <img src="assets/logo.png" alt="Logo barbearia Lobão Corts" /> 
-            <h2>LOBÃO CORT$</h2>
-        </div>
-        <nav class="cabecalho__info">
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#localizacao">Localização</a></li>
-                <li><a href="footer">Fale Comigo</a></li>
-            </ul>
-        </nav>
-        <button class="cabecalho__info__botao">
-            <p>Agende Seu Horário</p>
-        </button>
-    </header>
     <main>
         <section id="home">
+            <header class="cabecalho">
+                <div class="cabecalho__logo">
+                    <img src="assets/logo.png" alt="Logo barbearia Lobão Corts" /> 
+                    <h2>LOBÃO CORT$</h2>
+                </div>
+                <nav class="cabecalho__info">
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#localizacao">Localização</a></li>
+                        <li><a href="footer">Fale Comigo</a></li>
+                    </ul>
+                </nav>
+                <button class="cabecalho__info__botao">
+                    <p>Agende Seu Horário</p>
+                </button>
+            </header>
             <div class="content">
                 <div class="slides">
                     <input type="radio" name="slide" id="slide1" checked>
@@ -73,10 +76,26 @@
                 <img src="assets/barbeiro.png" alt="imagem do barbeiro Higor Pires" >
             </div>
         </section>
-        <section id="localizacao">opa</section>
+        <section id="localizacao">
+            <h1 class="localizacao__titulo">Localizado em:</h1>
+            <div class="localizacao__endereco">
+                <p>RUA ROBERT KENEDDY, 24 VELOSO - OSASCO -  ZONA OESTE DE SP</p>
+                <br>
+                <br>
+                <p>Disponível sempre de:</p>
+                <br>
+                <br>
+                <p>TERÇA a SEXTA: das 09:00 as 17:00</p>
+                <p>SÁBADO: das 08:00 as 20:00</p>
+            </div>
+            <div class="localizacao__api">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9786043806293!2d-46.80404618255615!3d-23.5692119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce556193a0a6a9%3A0x838ccdd00ea88acc!2sR.%20Robert%20Kennedy%2C%2024%20-%20Veloso%2C%20Osasco%20-%20SP%2C%2006144-110!5e0!3m2!1spt-BR!2sbr!4v1681072351055!5m2!1spt-BR!2sbr" width="1000" height="270" style="border-radius:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
         <section id="servicos"></section>
         <section id="fale__comigo"></section>
     </main>
     <footer></footer>
 </body>
+
 </html>
