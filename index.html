@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slideshow.css">
 
+    <link rel="shortcut icon" href="assets/android-chrome-192x192.png" type="image/x-icon">
+
     <title>Lobão</title>
 
 </head>
-
 <body>
     <main>
         <section id="home">
@@ -22,15 +23,25 @@
                 <nav class="cabecalho__info">
                     <ul>
                         <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#servicos">Serviços</a></li>
                         <li><a href="#localizacao">Localização</a></li>
-                        <li><a href="footer">Fale Comigo</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#fale__comigo">Fale Comigo</a></li>
                     </ul>
                 </nav>
                 <button class="cabecalho__info__botao">
                     <p>Agende Seu Horário</p>
                 </button>
             </header>
+            <div class="home__info">
+                <h1>Bem vindo a<br /><strong>LOBÃO CORT$</strong></h1>
+                <br />
+                <p>A barbearia da quebrada para o quebrada, aqui você encontra o melhor atendimento da região com o melhor serviço, aquele corte que chama atenção.
+                <br />
+                <br />
+                Só chegar e ser atendido, não curte ter que esperar? Também trabalho com horários marcados!</p>
+                <br />
+                <p>Aparência impecável e corte excepcional - na LOBÃO CORT$, você é especial!</p>
+            </div>
             <div class="content">
                 <div class="slides">
                     <input type="radio" name="slide" id="slide1" checked>
@@ -39,11 +50,11 @@
                     <input type="radio" name="slide" id="slide4">
                     <input type="radio" name="slide" id="slide5">
         
-                    <div class="slide s1"><img src="assets/fundo contato.png"></div>
-                    <div class="slide"><img src="assets/fundo contato.png"></div>
-                    <div class="slide"><img src="assets/fundo contato.png"></div>
-                    <div class="slide"><img src="assets/fundo contato.png"></div>
-                    <div class="slide"><img src="assets/fundo contato.png"></div>
+                    <div class="slide s1"><img src="assets/carousel.jpg"></div>
+                    <div class="slide"><img src="assets/carousel3.png"></div>
+                    <div class="slide"><img src="assets/carousel2.png"></div>
+                    <div class="slide"><img src="assets/carousel4.png"></div>
+                    <div class="slide"><img src="assets/carousel1.png"></div>
                 
                     <div class="navigation">
                         <label class="bar" for="slide1"></label>
@@ -55,26 +66,60 @@
                 </div>
             </div>
         </section>
-        <section id="sobre">
-            <h1 class="sobre__titulo">SOBRE O SALÃO</h1>
-            <div class="sobre__conteudo">
-                <article class="sobre__conteudo__artigo">
-                    <h1>ENTRA FEIO E SAI BONITO</h1>
-                    <p>
-                    <br> 
-                    <br>  Bem-vindo à Lobão Corts, a barbearia que tem como objetivo trazer cortes excepcionais para a comunidade do Jd. São Vitor e região. Localizada em Osasco, a Lobão Corts é o lugar perfeito para rapazeada que estão em busca de um corte de cabelo profissional e de alta qualidade.
-                    <br> 
-                    <br>        
-                    Sou apaixonado pelo meu trabalho e atarea de cortes da comunidade a mais anos. Sou especialista em cortes dedisfarçado navalhado e clássicos, e sempre atualizado com as últimas tendêda quebrada.
-                    <br> 
-                    <br>    
-                    missão: É proporcionar um atendimento de qualidade visando o bem estar do cliente, fidelizando-o e oferecendo uma experiência única e agradável.
-                    <br> 
-                    <br>    
-                    Visão: Ser referência na área da beleza masculina, buscando ser a melhor Barbearia da região. Ter como principio básico o respeito e a valorização do ser humano.</p>
-                </article>
-                <img src="assets/barbeiro.png" alt="imagem do barbeiro Higor Pires" >
+        <section id="servicos">
+            <h1 class="servicos__titulo">GALERIA</h1>
+            <div class="boxall">
+                <div class="servicos__cortes">
+                    <div class="cortes1">
+                        <img src="assets/luzes.png" alt="foto de um cabelo com luzes" class="corte"/>
+                        <div class="box">
+                            <h2 class="cortes__descricao">MÁQUINA + LUZES</h2>
+                        </div>
+                    </div>
+                    <div class="cortes2">
+                        <img src="assets/degade.png" alt="foto de corte degrade" class="corte"/>
+                        <div class="box">
+                            <h2 class="cortes__descricao">DEGRADÊ NAVALHADO</h2>
+                        </div>
+                    </div>
+                    <div class="cortes3">
+                        <img src="assets/escovado.png" alt="foto de um cabelo escovado" class="corte"/>
+                        <div class="box">
+                            <h2 class="cortes__descricao">ESCOVADO</h2>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="boxall1">
+                <div class="servicos__cortesoutro">
+                    <div class="cortes4">
+                        <img src="assets/mandrake kids.png" alt="foto de duas crianças com cabelo Mandrake" class="corte"/>
+                        <div class="box">
+                            <h2 class="cortes__descricao">MANDRAKE</h2>
+                        </div>
+                    </div>
+                    <div class="cortes5">
+                        <img src="assets/boyzao.png" alt="foto de corte dboyzão" class="corte"/>
+                        <div class="box">
+                            <h2 class="cortes__descricao">DBOYZÃO</h2>
+                        </div>
+                    </div>
+                    <div class="cortes6">
+                        <img src="assets/barba.png" alt="foto de uma barba feita" class="corte"/>
+                        <div class="box">
+                            <h2 class="cortes__descricao">BARBA</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="servicos__info">
+                <img src="assets/tabela de preços.png" alt="descrição de serviços e preços"/>
+            </div>
+            <a href="#" class="servicos__info__botao">
+                <button class="servicos__info__botao__button">
+                    <p>Agende Seu Horário</p>
+                </button>
+            </a>
         </section>
         <section id="localizacao">
             <h1 class="localizacao__titulo">Localizado em:</h1>
@@ -92,59 +137,26 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.9786043806293!2d-46.80404618255615!3d-23.5692119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce556193a0a6a9%3A0x838ccdd00ea88acc!2sR.%20Robert%20Kennedy%2C%2024%20-%20Veloso%2C%20Osasco%20-%20SP%2C%2006144-110!5e0!3m2!1spt-BR!2sbr!4v1681072351055!5m2!1spt-BR!2sbr" width="1000" height="270" style="border-radius:20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
-        <section id="servicos">
-            <h1 class="servicos__titulo">GALERIA</h1>
-            <div class="servicos__cortes1">
-                <div class="cortes1">
-                    <img src="assets/luzes.png" alt="foto de um cabelo com luzes" class="corte"/>
-                    <div class="box">
-                        <h2 class="cortes__descricao">MÁQUINA + LUZES</h2>
-                    </div>
-                </div>
-                <div class="cortes2">
-                    <!--<img src="assets/degade.png" alt="foto de corte degrade" class="corte"/>
-                    <img src="assets/logo.png" alt="logo barbearia" class="logo"/>
-                    <div class="box">-->
-                        <h2 class="cortes__descricao">DEGRADÊ NAVALHADO</h2>
-                    </div>
-                </div>
-                <div class="cortes3">
-                    <!--<img src="assets/escovado.png" alt="foto de um cabelo escovado" class="corte"/>
-                    <img src="assets/logo.png" alt="logo barbearia" class="logo"/>
-                    <div class="box">-->
-                        <h2 class="cortes__descricao">ESCOVADO</h2>
-                    </div>
-                </div>
+        <section id="sobre">
+            <h1 class="sobre__titulo">SOBRE O SALÃO</h1>
+            <div class="sobre__conteudo">
+                <article class="sobre__conteudo__artigo">
+                    <h1>ENTRA FEIO E SAI BONITO</h1>
+                    <p>
+                    <br> 
+                    <br>  Bem-vindo à Lobão Corts, a barbearia que tem como objetivo trazer cortes excepcionais para a comunidade do Jd. São Vitor e região. Localizada em Osasco, a Lobão Corts é o lugar perfeito para rapazeada que estão em busca de um corte de cabelo profissional e de alta qualidade.
+                    <br> 
+                    <br>        
+                    Sou apaixonado pelo meu trabalho e atuo na area de cortes a mais de 15 anos. Sou especialista em cortes disfarçado navalhado e clássicos como fio a fio, mandrake e outros e sempre atualizado com as últimas tendências da quebrada.
+                    <br> 
+                    <br>    
+                    Missão: Proporcionar um atendimento de qualidade visando o bem estar do cliente, fidelizando-o e oferecendo uma experiência única e agradável.
+                    <br> 
+                    <br>    
+                    Visão: Ser referência na área da beleza masculina, buscando ser a melhor Barbearia da região. Ter como principio básico o respeito e a valorização do ser humano.</p>
+                </article>
+                <img src="assets/barbeiro.png" alt="imagem do barbeiro Higor Pires" >
             </div>
-            <div class="servicos__cortes2">
-                <div class="cortes4">
-                    <!--<img src="assets/mandrake kids.png" alt="foto de duas crianças com cabelo Mandrake" class="corte"/>
-                    <img src="assets/logo.png" alt="logo barbearia" class="logo"/>
-                    <div class="box">-->
-                        <h2 class="cortes__descricao">MANDRAKE</h2>
-                    </div>
-                </div>
-                <div class="cortes5">
-                    <!--<img src="assets/boyzao.png" alt="foto de corte dboyzão" class="corte"/>
-                    <img src="assets/logo.png" alt="logo barbearia" class="logo"/>
-                    <div class="box">-->
-                        <h2 class="cortes__descricao">DBOYZÃO</h2>
-                    </div>
-                </div>
-                <div class="cortes6">
-                    <!--<img src="assets/barba.png" alt="foto de uma barba feita" class="corte"/>
-                    <img src="assets/logo.png" alt="logo barbearia" class="logo"/>
-                    <div class="box">-->
-                        <h2 class="cortes__descricao">BARBA</h2>
-                    </div>
-                </div>
-                <div class="servicos__info">
-                    <img src="assets/tabela de preços.png" alt="descrição de serviços e preços"/>
-                </div>
-            </div>
-            <button class="servicos__info__botao">
-                <p>Agende Seu Horário</p>
-            </button>
         </section>
         <section id="fale__comigo">
             <div class="fale__comigo__info">
@@ -159,7 +171,7 @@
                 <br>
                 <p>ACESSE O APP E AGENDE SEU HORÁRIO DE FORMA RÁPIDA E PRÁTICA</p>
                 <br>
-                <img src="assets/appbarber 1.png" alt="appbarber logo" class="barber__logo"/>
+                <a href="#" target="blank"><img src="assets/appbarber 1.png" alt="appbarber logo" class="barber__logo"/></a>
             </div>
         </section>
         <footer>
@@ -170,14 +182,14 @@
             <div class="insideFooter" id="footerCentro">
                 <div id="insideCentro">
                     <div id="nav1">
-                        <a href="#">Inicio</a>
-                        <a href="#sobre">Sobre</a>
-                        <a href="#servicos">Serviços</a>
+                        <a class="nav1__a" href="#">Inicio</a>
+                        <a class="nav1__a" href="#sobre">Sobre</a>
+                        <a class="nav1__a" href="#servicos">Serviços</a>
                     </div>
                     <div id="linhaVertical"></div>
                     <div id="nav2">
                         <a href="">Agende seu Horário</a>
-                        <img src="assets/barber.png" alt="appbarber logo" class="logo__footer">
+                        <a href="#" target="blank"><img src="assets/barber.png" alt="appbarber logo" class="logo__footer"></a>
                     </div>
                 </div>
             </div>
