@@ -380,6 +380,8 @@ main {
 
 /* contato fim */
 
+/* footer */
+
 footer{
     background-color: var(--cor-primaria);
     font-family: var(--fonte-primaria);
@@ -478,6 +480,7 @@ footer{
     width: 60%;
 }
 
+/* footer fim */
 
 /* responsividade */
 
