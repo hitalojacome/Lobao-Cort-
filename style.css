@@ -215,7 +215,7 @@ main {
     font-family: var(--fonte-primaria);
     display: grid;
     grid-template-columns: 0.8fr 1.5fr 1.5fr 1.5fr 2fr;
-    grid-template-rows: 5vh 5vh 5vh 38vh 38vh 7.1vh;
+    grid-template-rows: .5vh 5vh 5vh 38vh 38vh 7.1vh;
     grid-gap: 2px 15px;
     height: 100vh;
 }
