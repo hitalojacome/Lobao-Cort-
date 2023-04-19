@@ -1,0 +1,88 @@
+@media only screen and (max-width: 480px){
+    .cabecalho {
+        display: block;
+        align-items: center;
+        text-align: center;
+        height: 50%;
+    }
+
+    .cabecalho ul {
+        justify-content: space-around;
+        margin: auto;
+        width: 70%;
+        flex-wrap: wrap;
+    }
+
+    .cabecalho__info__botao {
+        margin: 4%;
+    }
+
+    .home__info {
+        display: none;
+    }
+
+    #servicos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    .servicos__titulo {
+        margin: 1%;
+    }
+
+    .servicos__info {
+        display: none;
+    }
+
+    .boxall, .boxall1 {
+        justify-content: space-around;
+    }
+
+    .servicos__info__botao {
+        height: auto;
+    }
+
+    .localizacao__endereco {
+        width: 99%;
+        margin: auto;
+    }
+
+    .localizacao__api {
+        width: 99%;
+        height: 99%;
+    }
+
+    .sobre__conteudo{
+        width: 100%;
+    }
+
+    #sobre h1 {
+        text-align: center;
+    }
+
+    #sobre article {
+        text-align: justify;
+        width: 85%;
+    }
+
+    .imagem__barbeiro {
+        display: none;
+    }
+
+    .fale__comigo__info {
+        margin: 9%;
+        width: 80%;
+        height: 88%;
+    }
+
+    #footerEsquerda {
+        width: auto;
+    }
+
+    #nav1 {
+        font-size: 22px;
+    
+    }
+}

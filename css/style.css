@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Graduate&display=swap');
 @import url('modal.css');
+@import url('responsivo.css');
+@import url('slideshow.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    width: 100%;
+}
 
 :root {
     --fonte-primaria: 'Graduate';
@@ -10,21 +26,6 @@
     --cor-botao: #A80000;
     --cor-fonte: #fff;
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-  
-html {
-    scroll-behavior: smooth;
-}
-
-main {
-    width: 100%;
-}
-
 
 /* cabeçalho */
 
@@ -80,7 +81,6 @@ main {
     font-weight: 100;
 }
 
-
 .cabecalho__info a {
     text-decoration: none;
     color: var(--cor-fonte);
@@ -127,92 +127,8 @@ main {
 
 /* cabeçalho fim */
 
-/* sobre */
-
-#sobre {
-    background-color: var(--cor-primaria);
-    font-family: var(--fonte-secundaria);
-    gap: 80px;
-    height: 100vh;
-}
-
-.sobre__titulo {
-    height: 3%;
-    padding: 2%;
-    text-align: center;
-    color: var(--cor-fonte);
-    font-weight: 200;
-    align-self: flex-start;
-}
-
-.sobre__conteudo {
-    margin-top: 7%;
-    display: flex;
-    justify-content: space-around;
-}
-
-#sobre article {
-    width: 35%;
-    height: 35%;
-    font-family: var(--fonte-secundaria);
-    color: var(--cor-fonte);
-}
-
-.sobre__conteudo img {
-    width: 23%;
-    height: auto;
-}
-
-.imagem__barbeiro {
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 1); 
-}
-
-/* sobre fim */
-
-/* localização */
-
-#localizacao {
-    background-image: url("assets/fundo-loc.png");
-    background-size: cover;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    gap: 1.3%;
-}
-
-.localizacao__titulo {
-    font-family: var(--fonte-secundaria);
-    color: var(--cor-fonte);
-    font-weight: 200;
-    margin: 1% 0 0 0;
-}
-
-.localizacao__endereco {
-    background-color: rgba(0, 0, 0, .8);
-    font-family: var(--fonte-secundaria);
-    color: var(--cor-fonte);
-    text-align: center;
-    width: 1000px;
-    height: 300px;
-    border-radius: 20px;
-    font-size: 1.4rem;
-    padding: 2%;
-}
-
-.localizacao__endereco p {
-    top: 30%;
-}
-
-.localizacao__api {
-    width: 75%;
-    height: 40%;
-}
-
-/* localização fim */
-
 /* Serviços */
-
+    
 #servicos {
     background-color: #000;
     color: var(--cor-fonte);
@@ -349,10 +265,94 @@ main {
 
 /* Serviços fim */
 
+/* localização */
+
+#localizacao {
+    background-image: url("../assets/fundo-loc.png");
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 1.3%;
+}
+
+.localizacao__titulo {
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-fonte);
+    font-weight: 200;
+    margin: 1% 0 0 0;
+}
+
+.localizacao__endereco {
+    background-color: rgba(0, 0, 0, .8);
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-fonte);
+    text-align: center;
+    width: 1000px;
+    height: 300px;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    padding: 2%;
+}
+
+.localizacao__endereco p {
+    top: 30%;
+}
+
+.localizacao__api {
+    width: 75%;
+    height: 40%;
+}
+
+/* localização fim */
+
+/* sobre */
+
+#sobre {
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-secundaria);
+    gap: 80px;
+    height: 100vh;
+}
+
+.sobre__titulo {
+    height: 3%;
+    padding: 2%;
+    text-align: center;
+    color: var(--cor-fonte);
+    font-weight: 200;
+    align-self: flex-start;
+}
+
+.sobre__conteudo {
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre article {
+    width: 35%;
+    height: 35%;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-fonte);
+}
+
+.sobre__conteudo img {
+    width: 23%;
+    height: auto;
+}
+
+.imagem__barbeiro {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 1); 
+}
+
+/* sobre fim */
+
 /* contato */
 
 #fale__comigo {
-    background-image: url(assets/fundo\ contato.png);
+    background-image: url('../assets/fundo\ contato.png');
     background-size: cover;
     height: 100vh;
 }
@@ -494,94 +494,3 @@ footer{
 }
 
 /* footer fim */
-
-/* responsividade */
-
-@media only screen and (max-width: 480px){
-    .cabecalho {
-        display: block;
-        align-items: center;
-        text-align: center;
-        height: 50%;
-    }
-
-    .cabecalho ul {
-        justify-content: space-around;
-        margin: auto;
-        width: 70%;
-        flex-wrap: wrap;
-    }
-
-    .cabecalho__info__botao {
-        margin: 4%;
-    }
-
-    .home__info {
-        display: none;
-    }
-
-    #servicos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 30px;
-    }
-
-    .servicos__titulo {
-        margin: 1%;
-    }
-
-    .servicos__info {
-        display: none;
-    }
-
-    .boxall, .boxall1 {
-        justify-content: space-around;
-    }
-
-    .servicos__info__botao {
-        height: auto;
-    }
-
-    .localizacao__endereco {
-        width: 99%;
-        margin: auto;
-    }
-
-    .localizacao__api {
-        width: 99%;
-        height: 99%;
-    }
-
-    .sobre__conteudo{
-        width: 100%;
-    }
-
-    #sobre h1 {
-        text-align: center;
-    }
-
-    #sobre article {
-        text-align: justify;
-        width: 85%;
-    }
-
-    .imagem__barbeiro {
-        display: none;
-    }
-
-    .fale__comigo__info {
-        margin: 9%;
-        width: 80%;
-        height: 88%;
-    }
-
-    #footerEsquerda {
-        width: auto;
-    }
-
-    #nav1 {
-        font-size: 22px;
-    
-    }
-}
