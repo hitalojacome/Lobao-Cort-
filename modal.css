@@ -1,0 +1,33 @@
+.janela__escura {
+    width: 100%;
+    height: 500%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,  80%);
+    z-index: 3;
+    visibility: hidden;
+}
+
+.calendly-inline-widget {
+    bottom: 2%;
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.fechar__modal {
+    position: absolute;
+    width: 2%;
+    margin-left: 95%;
+    font-size: 30px;
+    color: var(--cor-fonte);
+    font-family: var(--fonte-secundaria);
+    font-weight: 500;
+    padding: .5em 2em 0 0;
+    text-align: end;
+    cursor: pointer;
+    z-index: 5;
+}

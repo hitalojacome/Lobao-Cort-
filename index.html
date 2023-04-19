@@ -16,6 +16,11 @@
 </head>
 <body>
     <main>
+        <div class="janela__escura" onclick="fechar_modal()">
+            <div class="fechar__modal" onclick="fechar_modal()">X</div>
+            <div class="calendly-inline-widget" data-url="https://calendly.com/jacomehitalo/higorprince_?primary_color=a80000">
+            </div>
+        </div>
         <section id="home">
             <header class="cabecalho">
                 <div class="cabecalho__logo">
@@ -30,7 +35,7 @@
                         <li><a href="#fale__comigo">Fale Comigo</a></li>
                     </ul>
                 </nav>
-                <button class="cabecalho__info__botao">
+                <button class="cabecalho__info__botao" onclick = "abrir_modal()">
                     <p>Agende Seu Horário</p>
                 </button>
             </header>
@@ -118,7 +123,7 @@
                 <img src="assets/tabela de preços.png" alt="descrição de serviços e preços"/>
             </div>
             <a href="#" class="servicos__info__botao">
-                <button class="servicos__info__botao__button">
+                <button class="servicos__info__botao__button" onclick="abrir_modal()">
                     <p>Agende Seu Horário</p>
                 </button>
             </a>
@@ -155,7 +160,7 @@
                     Missão: Proporcionar um atendimento de qualidade visando o bem estar do cliente, fidelizando-o e oferecendo uma experiência única e agradável.
                     <br> 
                     <br>    
-                    Visão: Ser referência na área da beleza masculina, buscando ser a melhor Barbearia da região. Ter como principio básico o respeito e a valorização do ser humano.</p>
+                    Visão: Ser referência na área da beleza masculina, buscando ser a melhor Barbearia da região.</p>
                 </article>
                 <img src="assets/barbeiro.png" alt="imagem do barbeiro Higor Pires" class="imagem__barbeiro">
             </div>
@@ -202,6 +207,7 @@
             </div>  
         </footer>
     </main>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </body>
 
 </html>

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Graduate&display=swap');
+@import url('modal.css');
 
 :root {
     --fonte-primaria: 'Graduate';
@@ -162,6 +163,10 @@ main {
     height: auto;
 }
 
+.imagem__barbeiro {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 1); 
+}
+
 /* sobre fim */
 
 /* localização */
@@ -214,7 +219,7 @@ main {
     align-items: center;
     font-family: var(--fonte-primaria);
     display: grid;
-    grid-template-columns: 0.8fr 1.5fr 1.5fr 1.5fr 2fr;
+    grid-template-columns: 0.4fr 1.5fr 1.5fr 1.5fr 2fr;
     grid-template-rows: .5vh 5vh 5vh 38vh 38vh 7.1vh;
     grid-gap: 2px 15px;
     height: 100vh;
@@ -312,7 +317,7 @@ main {
 }
 
 .servicos__info__botao {
-    margin: 0 0 20% 20%;
+    margin: 10% 0 20% 20%;
     font-weight: 300;
     grid-column: 5;
     grid-row: 6;
@@ -356,6 +361,7 @@ main {
     position: absolute;
     display: block;
     background-color: rgba(0, 0, 0, .8);
+    box-shadow: 10px 14px 14px rgba(0, 0, 0, 1); 
     font-family: var(--fonte-secundaria);
     color: var(--cor-fonte);
     text-align: center;
@@ -466,8 +472,8 @@ footer{
 }
 
 #nav2 img {
-    margin: 15%;
-    width: 70%;
+    margin: 15% 20%;
+    width: 60%;
     height: auto;
 }
 
@@ -481,6 +487,10 @@ footer{
 
 #footerDireita img {
     width: 60%;
+}
+
+.logo__footer {
+    height: 10%;
 }
 
 /* footer fim */
