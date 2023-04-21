@@ -2,6 +2,7 @@
 @import url('modal.css');
 @import url('responsivo.css');
 @import url('slideshow.css');
+@import url('scrollreveal.css');
 
 * {
     margin: 0;

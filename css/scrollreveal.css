@@ -1,0 +1,35 @@
+/* efeito serviços */
+
+.servicos__cortes {
+    visibility: hidden;
+}
+
+.servicos__info {
+    visibility: hidden;
+}
+
+.servicos__info__botao__button {
+    visibility: hidden;
+}
+
+/* efeito endereço */
+
+.localizacao__endereco {
+    visibility: hidden;
+}
+
+.localizacao__api {
+    visibility: hidden;
+}
+
+/* efeito sobre */
+
+.sobre__conteudo {
+    visibility: hidden;
+}
+
+/* efeito contatos */
+
+.fale__comigo__info {
+    visibility: hidden;
+}
