@@ -17,7 +17,8 @@ function fechar_modal() {
 
 /* scrollreveal */
 
-let tempo__delay = 500
+let tempo__delay = 600
+let tempo__duration = 800
 
 window.sr = ScrollReveal({reset: true})
 
@@ -26,50 +27,58 @@ window.sr = ScrollReveal({reset: true})
 sr.reveal('.cortes1', {
     delay: tempo__delay,
     origin: "left",
-    distance: "100px"
+    distance: "100px",
+    duration: tempo__duration
 });
 
 sr.reveal('.cortes2', {
     delay: tempo__delay,
     origin: "top",
-    distance: "85px"
+    distance: "85px",
+    duration: tempo__duration
 });
 
 sr.reveal('.cortes3', {
     delay: tempo__delay,
     origin: "right",
-    distance: "300px"
+    distance: "300px",
+    duration: tempo__duration
 });
 
 sr.reveal('.cortes4', {
     delay: tempo__delay,
     origin: "left",
-    distance: "100px"
+    distance: "100px",
+    duration: tempo__duration
 });
 
 sr.reveal('.cortes5', {
     delay: tempo__delay,
     origin: "bottom",
-    distance: "85px"
+    distance: "85px",
+    duration: tempo__duration
 });
 
 sr.reveal('.cortes6', {
     delay: tempo__delay,
     origin: "right",
-    distance: "300px"
+    distance: "300px",
+    duration: tempo__duration
 });
         /* Tabela de preços e botão */
 
 sr.reveal('.servicos__info', {
     delay: tempo__delay,
     origin: "top",
-    distance: "50px"
+    distance: "50px",
+    duration: tempo__duration
 });
 
 sr.reveal('.servicos__info__botao__button', {
     delay: tempo__delay,
     origin: "bottom",
-    distance: "50px"
+    distance: "50px",
+    duration: tempo__duration
 });
 
 /* efeito endereço */
@@ -77,13 +86,15 @@ sr.reveal('.servicos__info__botao__button', {
 sr.reveal('.localizacao__endereco', {
     delay: tempo__delay,
     origin: "left",
-    distance: "100px"
+    distance: "100px",
+    duration: tempo__duration
 });
 
 sr.reveal('.localizacao__api', {
     delay: tempo__delay,
     origin: "right",
-    distance: "100px"
+    distance: "100px",
+    duration: tempo__duration
 });
 
 /* efeito sobre */
@@ -91,13 +102,15 @@ sr.reveal('.localizacao__api', {
 sr.reveal('.sobre__conteudo__artigo', {
     delay: tempo__delay,
     origin: "bottom",
-    distance: "80px"
+    distance: "80px",
+    duration: tempo__duration
 })
 
 sr.reveal('.imagem__barbeiro', {
     delay: tempo__delay,
     origin: "top",
-    distance: "80px"
+    distance: "80px",
+    duration: tempo__duration
 })
 
 /* efeito contatos */
@@ -105,5 +118,6 @@ sr.reveal('.imagem__barbeiro', {
 sr.reveal('.fale__comigo__info', {
     delay: tempo__delay,
     origin: "left",
-    distance: "80px"
+    distance: "80px",
+    duration: tempo__duration
 })
