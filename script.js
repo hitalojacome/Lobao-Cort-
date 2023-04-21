@@ -17,6 +17,7 @@ function fechar_modal() {
 
 /* scrollreveal */
 
+let delay__hover = 100
 let tempo__delay = 600
 let tempo__duration = 800
 
@@ -25,42 +26,42 @@ window.sr = ScrollReveal({reset: true})
 /* efeito serviços */
         /* box cortes e descrição */
 sr.reveal('.cortes1', {
-    delay: tempo__delay,
+    delay: delay__hover,
     origin: "left",
     distance: "100px",
     duration: tempo__duration
 });
 
 sr.reveal('.cortes2', {
-    delay: tempo__delay,
+    delay: delay__hover,
     origin: "top",
     distance: "85px",
     duration: tempo__duration
 });
 
 sr.reveal('.cortes3', {
-    delay: tempo__delay,
+    delay: delay__hover,
     origin: "right",
     distance: "300px",
     duration: tempo__duration
 });
 
 sr.reveal('.cortes4', {
-    delay: tempo__delay,
+    delay: delay__hover,
     origin: "left",
     distance: "100px",
     duration: tempo__duration
 });
 
 sr.reveal('.cortes5', {
-    delay: tempo__delay,
+    delay: delay__hover,
     origin: "bottom",
     distance: "85px",
     duration: tempo__duration
 });
 
 sr.reveal('.cortes6', {
-    delay: tempo__delay,
+    delay: delay__hover,
     origin: "right",
     distance: "300px",
     duration: tempo__duration
